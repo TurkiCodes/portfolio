@@ -1,6 +1,7 @@
 function About() {
   return (
     <section id ="about">
+      <div className="container">
       <h2>About Me</h2>
       <p>
         I'm a recent Software Engineering graduate with an
@@ -11,6 +12,7 @@ function About() {
            expanding my skills through projects and professional
             development.
       </p>
+      </div>
     </section>
   )
 }

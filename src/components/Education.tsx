@@ -1,7 +1,9 @@
 function Education() {
   return (
     <section id="education">
-      <h2>Education</h2>
+      <div className="container">
+        <h2>Education</h2>
+      </div>
     </section>
   );
 }
