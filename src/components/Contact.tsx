@@ -1,3 +1,8 @@
+const socialLinks = {
+  email: "mailto:turki5alfouzan@gmail.com",
+  linkedin: "https://www.linkedin.com/in/turki-alfouzan-a50543358/",
+  github: "https://github.com/TurkiCodes",
+};
 function Contact() {
   return (
     <section id="contact">
@@ -8,14 +13,14 @@ function Contact() {
       a question, or just want to connect, feel free to reach out.
         </p>
         <div className="contact-links">
-          <a href="mailto:turki5alfouzan@gmail.com">
-            Email  
+          <a href={socialLinks.email}>
+            Email
           </a>
-          <a href="https://www.linkedin.com/in/turki-alfouzan-a50543358/">
-              LinkedIn
+          <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer">
+            LinkedIn
           </a>
-          <a href="https://github.com/TurkiCodes">
-              GitHub  
+          <a href={socialLinks.github} target="_blank" rel="noopener noreferrer">
+            GitHub
           </a>
         </div>
       </div>
