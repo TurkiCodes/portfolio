@@ -12,9 +12,8 @@ function Hero() {
           <h2>Software Engineer</h2>
 
           <p className="hero-description">
-            Recent Software Engineering graduate passionate about
-            building clean, user-focused applications and
-            continuously improving through hands-on projects.
+            Building clean, user-focused web applications
+             while continuously learning modern technologies.
           </p>
 
           <div className="hero-buttons">
