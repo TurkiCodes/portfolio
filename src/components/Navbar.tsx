@@ -1,6 +1,7 @@
 function Navbar() {
   return (
     <nav>
+        <div className="navbar-container">
         <a href="#hero" className="logo">
             Turki Alfouzan
         </a>
@@ -13,7 +14,7 @@ function Navbar() {
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        
+        </div>
     </nav>
         );
         }

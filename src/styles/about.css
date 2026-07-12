@@ -1,0 +1,48 @@
+#about {
+    background: var(--color-background);
+}
+
+#about .container {
+    max-width: 900px;
+}
+
+#about p {
+    background: var(--color-surface);
+
+    padding: var(--card-padding);
+
+    border-radius: var(--border-radius);
+
+    box-shadow: var(--box-shadow);
+
+    font-size: 1.1rem;
+
+    line-height: 1.9;
+
+    color: var(--color-text-secondary);
+}
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+
+    margin-bottom: 2rem;
+
+    position: relative;
+
+    display: inline-block;
+}
+
+.section-title::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+
+    width: 60px;
+    height: 4px;
+
+    background: var(--color-primary);
+
+    border-radius: 999px;
+}
