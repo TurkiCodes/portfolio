@@ -1,0 +1,81 @@
+#projects {
+    background: var(--color-surface);
+}
+.projects-grid {
+    display: grid;
+    gap: 2rem;
+}
+.project-card {
+    background: white;
+
+    padding: var(--card-padding);
+
+    border-radius: var(--border-radius);
+
+    box-shadow: var(--box-shadow);
+
+    transition: var(--transition);
+}
+.project-card:hover {
+    transform: translateY(-6px);
+}
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-bottom: 1rem;
+}
+.project-header h3 {
+    font-size: 1.4rem;
+}
+.project-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.project-team {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+
+    background: var(--color-surface);
+
+    padding: .35rem .8rem;
+
+    border-radius: 999px;
+}
+.github-link {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+
+    color: var(--color-primary);
+
+    transition: var(--transition);
+}
+
+.github-link:hover {
+    color: var(--color-primary-hover);
+}
+.project-description {
+    color: var(--color-text-secondary);
+
+    margin-bottom: 1.5rem;
+}
+.project-highlights {
+    margin-top: 1.5rem;
+}
+.project-highlights h4 {
+    margin-bottom: .75rem;
+}
+.project-highlights ul {
+    list-style: disc;
+
+    padding-left: 1.2rem;
+
+    color: var(--color-text-secondary);
+}
+.project-highlights li {
+    margin-bottom: .5rem;
+}
