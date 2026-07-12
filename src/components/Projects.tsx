@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Student Tutoring App Requirements",
 
-    team: true,
+    team: "Team",
 
     description:
       "Gathered, analyzed, and documented software requirements for a student tutoring application, producing structured functional and non-functional requirements, UML artifacts, and prioritized documentation.",
@@ -40,12 +40,12 @@ function Projects() {
             <article key={project.title} className="project-card">
 
               <div className="project-header">
-                <h3>{project.title}</h3>
+                <h3 className="project-title">{project.title}</h3>
 
                 <div className="project-meta">
                   <span className="project-team">
-                    {project.team ? <FaUsers /> : <FaUser />}
-                    {project.team ? " Team" : " Solo"}
+                    {project.team === "Team" ? <FaUsers /> : <FaUser />}
+                    {project.team}
                   </span>
 
                   {project.github && (

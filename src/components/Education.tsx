@@ -23,7 +23,7 @@ function Education() {
           <h3>Academic Education</h3>
           <p>My formal academic background in software engineering.</p>
           {academicEducation.map((education) => (
-            <div className="education-item">
+            <div key={education.degree} className="education-item">
               <h4>{education.degree}</h4>
               <p>{education.institution}</p>
               <span>{education.year}</span>
@@ -34,7 +34,7 @@ function Education() {
           <h3>Professional Development</h3>
           <p>Additional courses and training to enhance professional skills.</p>
           {professionalDevelopment.map((development) => (
-            <div className="education-item">
+            <div key={development.title} className="education-item">
               <h4>{development.title}</h4>
               <p>{development.provider}</p>
               <span>{development.year}</span>

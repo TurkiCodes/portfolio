@@ -1,4 +1,12 @@
 import "./App.css";
+import "./styles/navbar.css";
+import "./styles/hero.css";
+import "./styles/about.css";
+import "./styles/education.css";
+import "./styles/skills.css";
+import "./styles/projects.css";
+import "./styles/experience.css";
+import "./styles/contact.css";
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import About from "./components/About"
