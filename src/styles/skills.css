@@ -1,0 +1,41 @@
+#skills {
+    background: var(--color-background);
+}
+.skills-group {
+    margin-bottom: 3rem;
+}
+
+.skills-group:last-child {
+    margin-bottom: 0;
+}
+
+.skills-group h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+.skill-item {
+    display: inline-flex;
+    align-items: center;
+
+    background: var(--color-surface);
+
+    padding: .6rem 1rem;
+
+    border-radius: 999px;
+
+    font-size: .95rem;
+    font-weight: 500;
+
+    transition: var(--transition);
+}
+.skill-item:hover {
+    background: var(--color-primary);
+    color: white;
+
+    transform: translateY(-2px);
+}
