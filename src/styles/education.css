@@ -1,0 +1,49 @@
+#education {
+    background: var(--color-surface);
+}
+
+.education-group:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.education-group h3 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.education-group > p {
+    color: var(--color-text-secondary);
+    margin-bottom: 2rem;
+}
+
+.education-item {
+    background: white;
+
+    padding: var(--card-padding);
+
+    border-radius: var(--border-radius);
+
+    box-shadow: var(--box-shadow);
+
+    transition: var(--transition);
+}
+
+.education-item:hover {
+    transform: translateY(-4px);
+}
+
+.education-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.education-item p {
+    color: var(--color-text-secondary);
+    margin-bottom: .75rem;
+}
+
+.education-item span {
+    font-size: .95rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
